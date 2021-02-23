@@ -1,0 +1,1 @@
+Student age is: <?php echo $age?>
