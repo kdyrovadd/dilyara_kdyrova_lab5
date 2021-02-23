@@ -29,8 +29,9 @@ class StudentController extends Controller
     	return view("studentdate")->with("date",$students[$id]);
     }
 
-    public function age($age) {
+    public function age($id) {
         $students = $this->get_age();
+        $age = $students[$id];
     	return view("studentage", compact('age'));
     }
 }

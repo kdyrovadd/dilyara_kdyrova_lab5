@@ -21,4 +21,4 @@ Route::get('/student_name/{id}', "StudentController@name");
 
 Route::get('/student_date/{id}', "StudentController@date_of_birth");
 
-Route::get('/student_age/{age}', "StudentController@age");
+Route::get('/student_age/{id}', "StudentController@age");
